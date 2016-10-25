@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/icon_money_dolla"
+        android:layout_weight="1"
+        android:id="@+id/img_bar_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ImageView>
+    <ListView
+        android:smoothScrollbar="true"
+        tools:listitem="@layout/item_score"
+        android:id="@+id/lv_menu"
+        android:layout_weight="0.08"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

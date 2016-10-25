@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_menu"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_menu">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_start_logo"
+        android:src="@drawable/altp_bg_menu"/>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txtv_start"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu"
+        android:background="@drawable/bg_menu_option"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:id="@+id/txtv_guide"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hướng dẫn"
+        android:background="@drawable/bg_menu_option"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:id="@+id/txtv_high_score"
+        style="@style/MyStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xếp hạng"
+        android:background="@drawable/bg_menu_option"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_menu"
+    android:padding="10dp"
+    android:layout_width="450dp"
+    android:layout_height="300dp">
+    <TextView
+        android:id="@+id/txtv_title"
+        style="@style/StyleTitleDialog"
+        android:text="Đang kết nối ... "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+
+    <LinearLayout
+        android:id="@+id/linear_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_phone_call"/>
+
+        <TextView
+            android:id="@+id/txtv_key"
+            android:layout_marginLeft="20dp"
+            style="@style/StyleContentDialog"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tôi chọn phương án B"/>
+        </LinearLayout>
+
+            <Button
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:layout_width="100dp"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_close"
+                android:text="Đóng"/>
+
+</RelativeLayout>
